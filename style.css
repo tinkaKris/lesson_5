@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  background-color: red;
+}
+
+div>strong {
+  background-color: aqua;
+}
+
+#element {
+  background-color: yellow;
+  }
+
+p+a {
+    background-color: rgb(68, 164, 228);
+  }
+
+.object {
+  background-color: pink;
+}
+
+a[href*="ua"] {
+  background-color: orange;
+}
+
+p strong {
+  background-color: blueviolet;
+}
+
+div.list>h3 {
+  background-color: rgb(5, 109, 86);
+}
+
+div.list li~li {
+  background-color: chocolate;
+}
+
+.box h3 {
+  background-color: lime;
+}
+
+div.box h3+p {
+  background-color: deeppink;
+}
+
+.container {
+  margin: 25px;
+}
+
+ .container .box+li {
+  background-color: cadetblue;
+}
